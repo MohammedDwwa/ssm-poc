@@ -1,0 +1,5 @@
+package com.gizasystems.ssmpoc.domain;
+
+public enum PaymentEvent {
+    PRE_AUTHORIZE, PRE_AUTHORIZE_APPROVED, AUTHORIZE_APPROVED, AUTHORIZE, PRE_AUTHORIZE_DECLINED, AUTHORIZE_DECLINED
+}
